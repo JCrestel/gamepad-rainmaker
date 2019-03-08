@@ -5,6 +5,8 @@ I started playing with the gamepad api from the W3C.
 This project use the [emoji-rainmaker](https://github.com/notwaldorf/emoji-rain) web component.  
 When the button 0 of a gamepad is pressed, the emojis start to rain.
 
+WIP
+
 #UseThePlatform
 
 ## Running the project
