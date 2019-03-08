@@ -1,0 +1,12 @@
+{
+
+  "name": "gamepad-rainmaker",
+  "version": "0.0.1",
+  "description": "gamepad-rainmaker",
+  "license": "MIT",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0",
+    "emoji-rain": "emoji-rain#^2.0.0"
+  }
+}

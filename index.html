@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Gamepad rainmaker</title>
+
+    <script type="module" src="gamepad.js"></script>
+		<script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="bower_components/emoji-rain/emoji-rain.html">
+  </head>
+
+  <body>
+      <emoji-rain id="rainmaker"></emoji-rain>
+  </body>
+
+  <script>
+    window.addEventListener('keypress', function(e){
+    if (!e.detail.buttonPress) {
+      document.getElementById('rainmaker').stop();
+    } else {
+      document.getElementById('rainmaker').start();
+    }
+  });
+  </script>
+
+</html>
